@@ -1,0 +1,102 @@
+.Homepage {
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgba(228, 228, 174, 0.673);
+
+}
+
+.signupbutton {
+    background-color: gba(80, 114, 125, 0.258);
+    color: rgb(61, 98, 33);
+    padding: 8px 16px;
+    border: dashed rgb(61, 98, 33);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 25px;
+    right: 120px;
+}
+
+.listbutton {
+    background-color: whitesmoke;
+    color: rgb(61, 98, 33);
+    padding: px 16px;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+    top: 27px;
+    left: 5px;
+}
+
+.list {
+    background-color: gba(80, 114, 125, 0.258);
+    color: rgb(61, 98, 33);
+    padding: 8px 16px;
+    border: rgb(61, 98, 33);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.loginbutton {
+    background-color: gba(80, 114, 125, 0.258);
+    color: rgb(61, 98, 33);
+    padding: 8px 16px;
+    border: dashed rgb(61, 98, 33);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.welcome {
+    font-size: 2rem;
+    color: rgb(61, 98, 33);
+    position: absolute;
+    top: 0%;
+    left: 35px;
+}
+
+.searchbutton {
+    background-color: gba(80, 114, 125, 0.258);
+    color: rgb(61, 98, 33);
+    border: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.searchinput {
+    background-color: rgba(80, 114, 125, 0.258);
+    color: black;
+    border: bold;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    padding: 0px -5px;
+}
+
+
+.App-logo {
+    height: 70vh;
+    align-items: center;
+    width: auto;
+    pointer-events: none;
+
+}
